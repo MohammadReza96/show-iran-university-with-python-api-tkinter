@@ -1,0 +1,5 @@
+http://universities.hipolabs.com/search?country=IRAN
+-------------------------------------------------------------------------------------------------
+***you must change this directory with your own directory:
+from requests import head
+sys.path.insert(0,    "C:/Users/MohammadReza/Desktop/p-2"     )
