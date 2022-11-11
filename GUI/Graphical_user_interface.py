@@ -39,7 +39,7 @@ class IranUniversity:
         self.note_book.grid(row=0,column=0)                                                                                           
         self.main_widget.title('سیسـتم آشنایـی با دانشــگاه های ایران')                                                                             
         self.main_widget.iconbitmap('icon/iran_kkd_icon.ico')
-        IranUniversity.set_size(self.main_widget,590,458)
+        IranUniversity.set_size(self.main_widget,615,500)
         self.main_widget.resizable(width=False,height=False)
         self.music=playSong()
     ##################################################################### adding imageBackground for main widget
