@@ -39,7 +39,7 @@ class IranUniversity:
         self.note_book.grid(row=0,column=0)                                                                                           
         self.main_widget.title('سیسـتم آشنایـی با دانشــگاه های ایران')                                                                             
         self.main_widget.iconbitmap('icon/iran_kkd_icon.ico')
-        IranUniversity.set_size(self.main_widget,615,500)
+        IranUniversity.set_size(self.main_widget,655,500)
         self.main_widget.resizable(width=False,height=False)
         self.music=playSong()
     ##################################################################### adding imageBackground for main widget
@@ -66,12 +66,12 @@ class IranUniversity:
         self.entry_box_city.grid(row=0,column=1,padx=(5,0),pady=(380,0))
     ################################################################################################ add button in home
         self.button_show=Button(master=self.canvas1,image=self.but_show,borderwidth=0,bg='#f0f0f0',activebackground="#f0f0f0",activeforeground="#f0f0f0") 
-        self.button_show.grid(row=0,column=2,padx=(5,0),pady=(380,0))
+        self.button_show.grid(row=0,column=2,padx=(50,0),pady=(380,0)) 
     ################################################################################################ add button in setting
         self.button_sound=Button(master=self.canvas2,image=self.but_sound,borderwidth=0,bg='#f0f0f0') 
         self.button_sound.grid(row=0,column=1,padx=(30,0),pady=(330,0))
         self.button_mute=Button(master=self.canvas2,image=self.but_mute,borderwidth=0,bg='#f0f0f0') 
-        self.button_mute.grid(row=0,column=2,padx=(10,0),pady=(335,0))
+        self.button_mute.grid(row=0,column=2,padx=(10,0),pady=(330,0))
     ################################################################################################ bind 
         self.button_show.bind('<Button-1>',lambda event:self.__show_result(event))
 
